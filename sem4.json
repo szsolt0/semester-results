@@ -1,0 +1,65 @@
+[
+	{
+		"subject": "Automaták",
+		"signature": true,
+		"exam": true,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Grafika",
+		"signature": true,
+		"exam": true,
+		"grade": 3,
+		"credit": 5
+	},
+	{
+		"subject": "Numerikus",
+		"signature": true,
+		"exam": true,
+		"grade": 2,
+		"credit": 5
+	},
+	{
+		"subject": "Optimalizálás",
+		"signature": true,
+		"exam": true,
+		"grade": 2,
+		"credit": 5
+	},
+	{
+		"subject": "OS",
+		"signature": true,
+		"exam": true,
+		"grade": 4,
+		"credit": 5
+	},
+	{
+		"subject": "Párhuzamos",
+		"signature": true,
+		"exam": true,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Statisztika",
+		"signature": true,
+		"exam": null,
+		"grade": 3,
+		"credit": 5
+	},
+	{
+		"subject": "Angol",
+		"signature": true,
+		"exam": null,
+		"grade": 4,
+		"credit": 2
+	},
+	{
+		"subject": "Honvédelem",
+		"signature": true,
+		"exam": true,
+		"grade": 4,
+		"credit": 2
+	}
+]

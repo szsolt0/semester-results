@@ -1,0 +1,58 @@
+[
+	{
+		"subject": "Numerikus",
+		"signature": true,
+		"exam": null,
+		"grade": 2,
+		"credit": 5
+	},
+	{
+		"subject": "Hálózatok",
+		"signature": true,
+		"exam": true,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Valószínűség",
+		"signature": true,
+		"exam": true,
+		"grade": 2,
+		"credit": 5
+	},
+	{
+		"subject": "Spec szoft",
+		"signature": true,
+		"exam": null,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Szofttech",
+		"signature": true,
+		"exam": true,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Nyelv komp",
+		"signature": true,
+		"exam": null,
+		"grade": null,
+		"credit": 0
+	},
+	{
+		"subject": "Angol 1",
+		"signature": true,
+		"exam": null,
+		"grade": 4,
+		"credit": 2
+	},
+	{
+		"subject": "Adatbázis 1",
+		"signature": true,
+		"exam": true,
+		"grade": 2,
+		"credit": 5
+	}
+]

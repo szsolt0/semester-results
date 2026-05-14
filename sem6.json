@@ -1,0 +1,30 @@
+[
+	{
+		"subject": "Angol",
+		"signature": true,
+		"exam": null,
+		"grade": null,
+		"credit": 0
+	},
+	{
+		"subject": "Párhuzamos",
+		"signature": true,
+		"exam": null,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Pénzügy",
+		"signature": true,
+		"exam": null,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Szakdolgozat",
+		"signature": true,
+		"exam": null,
+		"grade": 5,
+		"credit": 15
+	}
+]

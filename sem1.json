@@ -1,0 +1,72 @@
+[
+	{
+		"subject": "Matek komp",
+		"signature": true,
+		"exam": null,
+		"grade": null,
+		"credit": 0
+	},
+	{
+		"subject": "Progterv",
+		"signature": true,
+		"exam": true,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Diszkrét 1",
+		"signature": true,
+		"exam": true,
+		"grade": 2,
+		"credit": 5
+	},
+	{
+		"subject": "Analízis 1",
+		"signature": true,
+		"exam": true,
+		"grade": 2,
+		"credit": 5
+	},
+	{
+		"subject": "Testnev 1",
+		"signature": true,
+		"exam": null,
+		"grade": null,
+		"credit": 0
+	},
+	{
+		"subject": "Lineáris",
+		"signature": true,
+		"exam": true,
+		"grade": 2,
+		"credit": 5
+	},
+	{
+		"subject": "Architektúra",
+		"signature": true,
+		"exam": false,
+		"grade": null,
+		"credit": 5
+	},
+	{
+		"subject": "Tűzvédelem",
+		"signature": true,
+		"exam": null,
+		"grade": null,
+		"credit": 0
+	},
+	{
+		"subject": "Prog alap",
+		"signature": true,
+		"exam": true,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Neptun",
+		"signature": true,
+		"exam": null,
+		"grade": null,
+		"credit": 0
+	}
+]

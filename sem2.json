@@ -1,0 +1,58 @@
+[
+	{
+		"subject": "Testnev 2",
+		"signature": true,
+		"exam": null,
+		"grade": null,
+		"credit": 0
+	},
+	{
+		"subject": "Architektúra",
+		"signature": true,
+		"exam": true,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Analízis 2",
+		"signature": true,
+		"exam": null,
+		"grade": 2,
+		"credit": 5
+	},
+	{
+		"subject": "Angol 2",
+		"signature": true,
+		"exam": null,
+		"grade": 5,
+		"credit": 2
+	},
+	{
+		"subject": "Logika",
+		"signature": true,
+		"exam": true,
+		"grade": 2,
+		"credit": 5
+	},
+	{
+		"subject": "Adatstrukt",
+		"signature": true,
+		"exam": true,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "OOP",
+		"signature": true,
+		"exam": true,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Diszkrét 2",
+		"signature": true,
+		"exam": true,
+		"grade": 5,
+		"credit": 5
+	}
+]

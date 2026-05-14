@@ -1,0 +1,72 @@
+name: Release Results PDF
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: results-release
+  cancel-in-progress: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Delete old Results release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete results --yes --cleanup-tag || true
+          git push origin :refs/tags/results || true
+
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v5
+
+      - name: Install IBM Plex fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y unzip fontconfig
+
+          mkdir -p ~/.local/share/fonts/ibm-plex
+
+          curl -L -o /tmp/ibm-plex-mono.zip \
+            "https://github.com/IBM/plex/releases/download/@ibm/plex-sans@1.1.0/ibm-plex-sans.zip"
+
+          curl -L -o /tmp/ibm-plex-math.zip \
+            "https://github.com/IBM/plex/releases/download/@ibm/plex-math@1.1.0/ibm-plex-math.zip"
+
+          unzip -o /tmp/ibm-plex-mono.zip -d /tmp/ibm-plex-mono
+          unzip -o /tmp/ibm-plex-math.zip -d /tmp/ibm-plex-math
+
+          find /tmp/ibm-plex-mono /tmp/ibm-plex-math \
+            -name "*.otf" \
+            -exec cp {} ~/.local/share/fonts/ibm-plex/ \;
+
+          fc-cache -fv
+          fc-match "IBM Plex Mono"
+          fc-match "IBM Plex Math"
+
+      - name: Compile PDF
+        run: typst c --no-pdf-tags main.typ results.pdf
+
+      - name: Create results tag
+        run: |
+          git tag -f results "$GITHUB_SHA"
+          git push origin refs/tags/results --force
+
+      - name: Create Results release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create results results.pdf \
+            --title "Results" \

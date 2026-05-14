@@ -1,0 +1,58 @@
+[
+	{
+		"subject": "Algoritmusok",
+		"signature": true,
+		"exam": null,
+		"grade": 3,
+		"credit": 5
+	},
+	{
+		"subject": "Angol",
+		"signature": true,
+		"exam": null,
+		"grade": null,
+		"credit": 0
+	},
+	{
+		"subject": "MI",
+		"signature": true,
+		"exam": true,
+		"grade": 4,
+		"credit": 5
+	},
+	{
+		"subject": "Szakdolgozat",
+		"signature": true,
+		"exam": null,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "Szakgyak",
+		"signature": true,
+		"exam": null,
+		"grade": null,
+		"credit": 0
+	},
+	{
+		"subject": "Vállalati",
+		"signature": true,
+		"exam": null,
+		"grade": 2,
+		"credit": 5
+	},
+	{
+		"subject": "VR",
+		"signature": true,
+		"exam": null,
+		"grade": 5,
+		"credit": 5
+	},
+	{
+		"subject": "WebTech",
+		"signature": true,
+		"exam": null,
+		"grade": 5,
+		"credit": 5
+	}
+]
